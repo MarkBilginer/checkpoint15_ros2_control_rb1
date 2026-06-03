@@ -1,6 +1,27 @@
-# The cp15_auxiliary_files repository
+# Checkpoint 15 — ROS 2 Control RB-1
 
-## Description
+This repository contains the Checkpoint 15 project for integrating ROS 2 Control with the RB-1 robot model in Gazebo Sim.
 
-This respository contains files required by the checkpoint Nr 15 project.
-Students must clone this respository into their ros2_ws workspace as instructed by the project.
+## Project goal
+
+The goal of this project is to control the RB-1 robot through the ROS 2 Control framework instead of using independent Gazebo-only control plugins.
+
+The project includes:
+
+- ROS 2 Control integration for the RB-1 differential-drive base
+- Controller configuration for wheel actuation
+- ROS 2 Control integration for the RB-1 elevator/lifting unit
+- Controller configuration for elevator actuation
+- Launch and verification instructions for Gazebo Sim
+
+## Repository structure
+
+```text
+.
+├── rb1_ros2_description/
+│   ├── launch/
+│   ├── urdf/
+│   ├── meshes/
+│   └── config/
+├── robotnik_sensors/
+└── README.md
