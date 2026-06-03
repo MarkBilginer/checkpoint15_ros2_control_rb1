@@ -18,10 +18,6 @@ The project includes:
 
 ```text
 .
-├── rb1_ros2_description/
-│   ├── launch/
-│   ├── urdf/
-│   ├── meshes/
-│   └── config/
-├── robotnik_sensors/
-└── README.md
+├── rb1_ros2_description/   # RB-1 robot description, launch files, meshes, worlds, and Xacro/URDF files
+├── robotnik_sensors/       # Sensor description/support package
+└── README.md               # Repository-level project overview
